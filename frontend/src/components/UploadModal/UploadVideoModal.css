@@ -1,0 +1,75 @@
+#upload-video-modal {
+  width: 30%;
+  padding: 1.5rem .75rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #383838;
+  border-radius: 5px;
+}
+
+#upload-video-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#upload-video-form-header {
+    margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#upload-video-form-title {
+  font-size: inherit;
+  color: #e5e5e5;
+  margin: 0;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+
+#upload-video-form-close {
+  cursor: pointer;
+}
+
+#upload-video-form * {
+  color: #afafaf;
+  border-color: #afafaf;
+}
+
+#upload-video-form :is(#upload-video-form-title, input, .MuiSelect-select) {
+  color: #e8e8e8;
+}
+
+#form-action-buttons {
+    color: #ffffff;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#upload-button {
+    color: inherit;
+    font-weight: inherit;
+    background-color: #ee1520;
+}
+
+#cancel-upload-button {
+    color: inherit;
+    font-weight: inherit;
+}
+
+@media screen and (max-width: 912px) {
+  #upload-video-modal {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #upload-video-modal {
+    width: 80%;
+  }
+}

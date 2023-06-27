@@ -1,0 +1,32 @@
+.video-card {
+  color: white;
+  margin-bottom: 2rem;
+  text-decoration: none;
+}
+
+.video-card-image img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.video-card-content {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+  margin-left: 0.2rem;
+}
+
+.video-card-content-title {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.video-card-content-upload-date {
+  color: #d1d5d8;
+}

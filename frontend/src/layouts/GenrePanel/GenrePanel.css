@@ -1,0 +1,76 @@
+#filter-panel {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5rem;
+}
+
+#filter-select-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#genre-select {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#rating-select {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#sort-menu {
+  width: max-content;
+  height: fit-content;
+  padding: 0.25rem 1rem 0.1rem 1rem;
+  color: #000;
+  background-color: white;
+  border-radius: 20px;
+}
+
+#sort-menu select {
+  cursor: pointer;
+  font-size: 1rem;
+  text-align: center;
+  background-color: inherit;
+  border: none;
+  appearance: none;
+}
+
+#sort-menu select:focus {
+  outline: none;
+}
+
+#sort-menu select::content {
+  margin-bottom: 2rem;
+}
+
+#sort-icon {
+  vertical-align: middle;
+  color: #000;
+}
+
+/* responsive css */
+
+@media screen and (max-width: 992px) {
+  /* no need */
+}
+
+@media screen and (max-width: 768px) {
+  #genre-panel {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #genre-panel {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+}
