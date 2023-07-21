@@ -20,7 +20,9 @@ During the course of this project,
 - Deployed the React application to Netlify
 
 ## SCREENSHOTS
-
-![XFLIX_1](https://github.com/me4abhi/x-flicks/assets/71978902/340e7235-89a0-469b-b57d-c1c073631d3a)
-![XFLIX_2](https://github.com/me4abhi/x-flicks/assets/71978902/b1faa62b-66ca-437e-bfbd-cde3c08f9b2a)
-![XFLIX_3](https://github.com/me4abhi/x-flicks/assets/71978902/a717eef9-85cb-45c2-b4fc-51a9bfe6ef80)
+- Home Page
+![XFLIX_HomePage](https://github.com/me4abhi/x-flicks/assets/71978902/b1faa62b-66ca-437e-bfbd-cde3c08f9b2a)
+- Video Page
+![XFLIX_VideoPage](https://github.com/me4abhi/x-flicks/assets/71978902/340e7235-89a0-469b-b57d-c1c073631d3a)
+- Video Upload Modal
+![XFLIX_UploadModal](https://github.com/me4abhi/x-flicks/assets/71978902/a717eef9-85cb-45c2-b4fc-51a9bfe6ef80)
